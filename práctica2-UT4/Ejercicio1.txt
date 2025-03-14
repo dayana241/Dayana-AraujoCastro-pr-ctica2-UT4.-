@@ -1,0 +1,25 @@
+**Ejercicio 1.** Un agregador de RSS nos muestra la siguiente información:
+
+**Identifica:**
+
+- **El título del canal:** ELPAIS.com - Sección Tecnología  
+- **Cuántos ítems se muestran en esta imagen:** 3  
+- **Título de cada uno de los ítems:**  
+  1. *Sony empieza a reabrir las plataformas asaltadas*  
+  2. *El código detrás del tuit*  
+  3. *Google maneja el ruido en la Red para ocultar sus problemas*  
+- **Descripción de cada ítem:**  
+  1. Sony ha empezado a restaurar los servicios de la PlayStation Network cuyo ataque el mes pasado comprometió los datos de 70 millones de jugadores. También lo anuncia Sony Online.  
+  2. En el reino de *tuitlandia* cada día se envían más de 50 millones de tuits (frente a 200,000 millones de correos electrónicos). A 140 caracteres por tuit, equivale aproximadamente al contenido de un disco de siete gigabytes. Un marasmo de mensajes cortos, la mayoría irrelevantes, inofensivos en su conjunto, dedicados a la comunicación de un instante.  
+  3. Blogger no es una plataforma de blogs cualquiera. La empresa de medición comScore les otorgaba en marzo de este año 34.7 millones de usuarios en todo el planeta. Lo sitúa dentro de los diez sitios con más vistas del mundo.  
+- **Autor de cada ítem:**  
+  1. DE EL PAÍS  
+  2. De RAFAEL CLEMENTE  
+  3. De ADRIÁN SEGOVIA  
+- **Otra información:**  
+  - **Horario de publicación de cada ítem:**  
+    1. 07:54 (hace 9 horas)  
+    2. 03:47 (hace 13 horas)  
+    3. 03:47 (hace 13 horas)  
+  - **Opciones disponibles en cada ítem:** Destacar, Me gusta, Compartir, Compartir con nota, Correo electrónico, Conservar como no leídos, Añadir etiquetas.
+
