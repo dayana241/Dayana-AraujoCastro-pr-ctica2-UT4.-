@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Band>
+    <NameBand>Queen</NameBand>
+    <History>Formada en 1970, Queen es una banda de rock británica...</History>
+    <Awards>Ganadores de múltiples premios, incluyendo Grammys...</Awards>
+
+    <Member>
+        <NameMember>Freddie Mercury</NameMember>
+        <Role>Vocalista</Role>
+        <Joined YEAR="1970"/>
+        <BDate>1946-09-05</BDate>
+        <Plays>Guitarra</Plays>
+    </Member>
+
+    <Member>
+        <NameMember>Brian May</NameMember>
+        <Role>Guitarrista</Role>
+        <Joined YEAR="1970"/>
+        <BDate>1947-07-19</BDate>
+        <Plays>Guitarra</Plays>
+    </Member>
+
+    <Member>
+        <NameMember>Roger Taylor</NameMember>
+        <Role>Baterista</Role>
+        <Joined YEAR="1970"/>
+        <BDate>1949-07-26</BDate>
+        <Plays>Batería</Plays>
+    </Member>
+
+    <Member>
+        <NameMember>John Deacon</NameMember>
+        <Role>Bajista</Role>
+        <Joined YEAR="1971"/>
+        <BDate>1951-08-19</BDate>
+        <Plays>Bajo</Plays>
+    </Member>
+
+    <Instrument Id="001">
+        <InstrumentName>Guitarra eléctrica</InstrumentName>
+    </Instrument>
+
+    <Instrument Id="002">
+        <InstrumentName>Batería</InstrumentName>
+    </Instrument>
+
+    <Instrument Id="003">
+        <InstrumentName>Bajo eléctrico</InstrumentName>
+    </Instrument>
+</Band>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ligaDeFutbol [
+    <!ELEMENT ligaDeFutbol (partido*)>  <!-- Se define correctamente el elemento raíz -->
+    <!ELEMENT partido (local, visitante)>  <!-- "partido" debe tener obligatoriamente "local" y "visitante" -->
+    <!ELEMENT local (#PCDATA)>  <!-- "local" contiene datos de texto -->
+    <!ELEMENT visitante (#PCDATA)>  <!-- "visitante" contiene datos de texto -->
+    <!ATTLIST local goles CDATA #REQUIRED>  <!-- Se define el atributo goles para "local" -->
+    <!ATTLIST visitante goles CDATA #REQUIRED>  <!-- Se define el atributo goles para "visitante" -->
+]>
+<ligaDeFutbol>  <!-- Se corrige el nombre del elemento raíz -->
+    <partido>
+        <local goles="0">Real Madrid</local>
+        <visitante goles="1">Barcelona</visitante>
+    </partido>
+    <partido>
+        <local goles="3">Hércules</local>
+        <visitante goles="3">Albacete</visitante>
+    </partido>
+    <partido>
+        <local goles="4">Balmis</local>
+        <visitante goles="2">EquipoX</visitante>  <!-- Se ha agregado un "visitante" para cumplir la DTD -->
+    </partido>
+</ligaDeFutbol>
+
+<!-- Errores corregidos en (b): 
+1. En el XML original, el elemento raíz se llamaba "liga" en lugar de "ligaDeFutbol".
+2. En el último partido, faltaba el elemento "visitante", lo cual violaba la DTD.
+3. Se ha mantenido la estructura definida en la DTD asegurando que "partido" tenga ambos elementos requeridos.
+-->

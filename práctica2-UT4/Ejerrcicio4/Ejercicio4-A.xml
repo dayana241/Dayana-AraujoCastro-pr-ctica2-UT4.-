@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+    <!ELEMENT numeros (numero)>  <!-- Se define el elemento "numeros" correctamente -->
+    <!ELEMENT numero (#PCDATA)>  <!-- Se define que "numero" contiene datos de texto -->
+]>
+<numeros>
+    <numero>52</numero>  <!-- Se coloca el valor dentro de un elemento "numero" -->
+</numeros>
+
+<!-- Errores corregidos en (a): 
+1. El XML original tenía <numeros> sin definir en la DTD.
+2. El número "52" estaba suelto sin un elemento definido.
+3. Se ha agregado el elemento "numero" dentro de "numeros".
+-->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ELPAIS.com - Sección Tecnología</title>
+        <link>https://www.elpais.com/tecnologia</link>
+        <description>Últimas noticias de tecnología</description>
+
+        <item>
+            <title>Sony empieza a reabrir las plataformas asaltadas</title>
+            <link>https://www.foo.com/sony</link>
+            <author>DE EL PAÍS</author>
+            <pubDate>07:54</pubDate>
+            <description>Sony ha empezado a restaurar los servicios de la PlayStation Network...</description>
+        </item>
+
+        <item>
+            <title>El código detrás del tuit</title>
+            <link>https://www.bar.com/twitter</link>
+            <author>RAFAEL CLEMENTE</author>
+            <pubDate>03:47</pubDate>
+            <description>En el reino de tuitlandia cada día se envían más de 50 millones de tuits...</description>
+        </item>
+
+        <item>
+            <title>Google maneja el ruido en la Red para ocultar sus problemas</title>
+            <link>https://www.foo.com/google</link>
+            <author>ADRIÁN SEGOVIA</author>
+            <pubDate>03:47</pubDate>
+            <description>Blogger no es una plataforma de blogs cualquiera...</description>
+        </item>
+    </channel>
+</rss>
